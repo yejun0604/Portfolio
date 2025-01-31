@@ -32,11 +32,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          copyright © 2024 Yejun
-        </p>
-
+      <div className="flex mt-16 md:flex-col flex-col justify-between items-center gap-7">
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
             <a
@@ -52,6 +48,10 @@ const Footer = () => {
             </a>
           ))}
         </div>
+
+        <p className="md:text-base text-sm md:font-normal font-light">
+          copyright © 2024 Yejun Lee
+        </p>
       </div>
     </footer>
   );
