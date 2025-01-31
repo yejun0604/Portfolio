@@ -1,5 +1,4 @@
 "use client";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
